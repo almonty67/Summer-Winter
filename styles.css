@@ -98,12 +98,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(5deg);
 }
 
 
@@ -183,12 +183,13 @@ ul.goals {
 **************************/
 
 footer {
-  width: 100%;
+    width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
 
 footer .copyright {
+  font-family: 'Dancing Script', cursive;
   top: -8px;
   font-size: .75em;
 }
@@ -208,16 +209,7 @@ footer ul li {
     SOCIAL ICON LINKS
 *************************/
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
-}
+
 a.social:hover {
   opacity: 1;
 }
@@ -225,13 +217,35 @@ a.social:hover {
   clear: both;
 }
 
+
 /**************************
     PAGE: EXPERIENCE
 **************************/
 .cfproject {
   font-family: 'Dancing Script', cursive;
-
 }
+
+/**************************
+    PAGE: ABOUT
+**************************/
+
+.about-header {
+  background: url('images/snowflake.jpg') no-repeat top center;
+}
+
+.hobbies {
+  font-family: 'Dancing Script', cursive;
+  list-style: none;
+}
+
+.interests {
+  font-family: 'Dancing Script', cursive;
+  list-style: none;
+}
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
