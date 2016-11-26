@@ -231,6 +231,8 @@ a.social:hover {
 
 .about-header {
   background: url('images/snowflake.jpg') no-repeat top center;
+  background-size: cover;
+
 }
 
 .hobbies {
