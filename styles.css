@@ -64,6 +64,7 @@ a:hover {
 }
 
 .nav li {
+  display: inline-block;
   padding: 5px 10px 10px 10px;
 }
 
@@ -183,7 +184,7 @@ ul.goals {
 **************************/
 
 footer {
-    width: 100%;
+  width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
